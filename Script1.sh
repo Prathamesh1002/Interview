@@ -1,0 +1,6 @@
+echo "I am from Young minds"
+echo "I am from batch-30 and learning DevOps"
+echo "My name is Prathamesh"
+echo "I am learning DevOps"
+echo "I am learning AWS"
+echo "I am learning Git/Github"

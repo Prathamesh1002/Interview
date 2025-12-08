@@ -1,7 +1,7 @@
 echo "My name is Prathamesh"
 echo "I am learning AWS & DevOps"
 echo "I am learning Git/Github"
-Class=Young-minds
-Batch=25
+Class=Prathamesh
+Batch=Hande
 PROFESSION=AWS/DevSecOps/Azure DevOps
-echo "Class Name is $Class, Batch number $Batch, We are learning $PROFESSION"
+echo "My Name is $Class, & Sername is $Batch, I am  learning $PROFESSION"

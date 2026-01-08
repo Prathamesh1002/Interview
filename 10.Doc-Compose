@@ -1,0 +1,13 @@
+version: "3.9"
+services:                              # Service "web"
+  web:                                 # Build Dockerfile in current dir
+    build:                             # Expose app port 5000 on machine as 8000
+    ports:
+      - "8000:5000"                    # mount the project directory (current directory) on the host to /code inside the container
+                                       # modify the code on the fly, without having to rebuild the image.
+    volumes:
+      - .:/code                        # tell flask run to run in development mode and reload the code on change
+    environment:
+      FLASK_ENV: development           # Service "redis" from image redis:alpine
+  redis:
+    image: "redis:alpine"

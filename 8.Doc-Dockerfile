@@ -1,0 +1,4 @@
+FROM ubuntu
+MAINTAINER prathamesh
+RUN apt update -y && apt install nginx -y
+EXPOSE 80
